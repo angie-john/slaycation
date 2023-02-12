@@ -17,21 +17,24 @@
         color: white;
         padding: 16px;
         font-size: 16px;
+        min-width: 160px;
         border: none;
         position: fixed;
-        left: 50%;
+        left: 44%;
       }
       /* Positions the Dropdown Content */
       .dropdown
       {
-      position: relative;
-      display: inline-block;
+        position: absolute;
+        display: inline-block;
       }
       /* Dropdown Content (Hidden by Default) */
       .dropdown-content
       {
         display: none;
-        position: absolute;
+        position: fixed;
+        top: 33.7%;
+        left: 44%;
         background-color: #f1f1f1;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -68,11 +71,20 @@
       Welcome!<br>Enter your country:
     </p>
     <div class="dropdown">
-      <button class="dropbtn">Dropdown</button>
+      <button class="dropbtn">Countries</button>
       <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <p style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/255px-Flag_of_the_People%27s_Republic_of_China.svg.png');">
+          <a href="#">China</a></p>
+        <p style="background-image: url('img_girl.jpg');">
+          <a href="#">Canada</a></p>
+        <p style="background-image: url('img_girl.jpg');">
+        <a href="#">Mexico</a>
+        <p style="background-image: url('img_girl.jpg');">
+        <a href="#">England</a>
+        <p style="background-image: url('img_girl.jpg');">
+        <a href="#">France</a>
+        <p style="background-image: url('img_girl.jpg');">
+        <a href="#">Japan</a>
       </div>
     </div>
   </body>
